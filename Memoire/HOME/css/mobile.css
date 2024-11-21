@@ -1,0 +1,129 @@
+s.c,.c,.head{width: 100%;min-width: 300px;padding: 10px}
+
+.content{display: block}
+
+span.menu-res{display: none}
+.cont,aside{width: 100%}
+
+aside .a-box li{height: 100px}
+aside .a-box li img{width: 90px;height: 90px;}
+aside .a-box li span{width: calc(100% - 100px);font-size: 1.2em;}
+
+.gla-pagination{text-align: center;justify-content: center;margin: 40px auto}
+.gla-pagination a{padding: 10px 16px;margin: 8px;}
+
+
+@media (max-width : 960px) {
+
+    *{flex-wrap: wrap}
+
+    header .c{justify-content: center;padding: 20px 0;}
+    header .logo{height: 70px;margin: 0 20px 0 0}
+    header form{width: 50%}
+    header .cnt div{width: 100%;margin-top: 20px;text-align: center}
+
+    span.menu-res{display: block;width: 50px;height: 50px;position: absolute;top: 10px;right: 10px;background-color: #fff;transition: 0.15s linear}
+    .mn .menu-res{right: 300px}
+    .mn nav{right:0;}
+    nav{position: fixed;right:-300px;top: 0;bottom: 0;width: 300px!important;background: #fff;box-shadow: 0 0 6px rgba(0,0,0,0.6);transition: 0.15s linear;z-index: 1100;overflow: hidden;overflow-y: auto;}
+    header nav ul{display: block}
+    header nav ul li{display: block;font-weight: bold;position: relative;border-bottom: 1px solid red}
+    header nav ul li:hover ul{display: none;}
+    header nav ul li span{display: block;position: absolute;right: 15px;top: 10px;background: #fff;color:red;border: 2px solid red;border-radius: 4px;padding: 0px 6px;font-size: 1.4em;}
+    header nav ul li ul{height: 1px;display: none;margin-left: 20px;box-shadow: none;position: relative;transition: 0.1s ease}
+    header nav ul li.open ul{height: auto;display: block;}
+    header nav ul li ul li{display: block;font-weight: normal;border: none}
+
+    header nav > ul, header nav .conf{width: 100%}
+    header nav ul li ul{margin-left: 0}
+
+    .caroussel{height: 300px}
+    .caroussel .child div{width:90%;margin: 30px auto}
+    .caroussel .child span {font-size: 2.1em;}
+    .caroussel .child p{font-size: 0.9em}
+
+    .ind.content .cont h2 a{display: none}
+
+    .c2{padding: 40px 20px}
+    .c2 .c div,.c2 img{width: 100%}
+    .c2 h2{font-size: 1.7em}
+    .c2 img{margin-top: 20px}
+
+    .c5{padding: 50px 20px}
+
+    .c-infos h1{font-size: 1.5em}
+
+    .content{padding: 20px 0}
+
+    .articles{justify-content: center;}
+
+    .article{min-width: 280px;margin: 0 5px 20px;}
+    .more-articles .article{min-width: auto;margin: 0}
+
+    aside .article{min-width: auto;width: auto}
+
+    .article img{width: 100%}
+
+    .single .first-cont{padding-top: 20px;margin-bottom: 10px}
+    .single .first-cont{display: block}
+    .single .photos,.single .ar-cont{margin-top: 20px;display: block;width: 100%}
+    .single .box .cnt{padding: 15px}
+    .gla-comment{margin: 20px 0}
+    .gla-cptch label{display: block;margin-bottom: 10px}
+    .gla-cptch span{font-size: 0.8em}
+
+    .single .ar-cont{padding: 0}
+    .single .ar-cont h1{font-size: 1.5em}
+
+    .contact .child,.contact .child2{width: 100%}
+
+    .first-cont, .single .cont .boxes, .login .box, .single .cont .box .cnt{padding: 10px}
+    .single .box .cnt{padding: 0}
+
+    .more-articles{margin-bottom: 20px;}
+    .more-articles .article{width: 300px}
+
+    .single .car-slide{width: 100%;margin: 0}
+
+    .page .child{width:100%;margin: 10px}
+    .page-aside{padding: 20px}
+
+    .pg .child{padding: 15px;width: 100%}
+    .pg .child2{width: 100%}
+    .child2 ul{padding: 30px 15px}
+    footer .child.cnt{width: 100%}
+
+    .share p{width: 100%}
+
+    .gla-form .group{display: block}
+    .gla-form .group input[type=text], .gla-form .group input[type=email]{width: 100%}
+    .gla-cptch{margin: 20px 0}
+
+    footer .child img{width: 90%}
+    footer .child{width: 100%}
+    footer .c{display: block;text-align: center}
+    footer .c>div{margin-bottom: 40px;width: 100%}
+    footer .c>div a{margin-bottom: 20px;}
+
+    .space .flex{flex-direction: column-reverse}
+    .pg .products, .pg .command{width: 100%}
+
+
+}
+
+@media (max-width : 500px) {
+
+    header .logo{height: 70px;margin: 0 100px 0 0}
+    header form{width: 94%;margin: 20px auto}
+    header .cnt div a{margin: 20px}
+
+    .head ul{display: block}
+    .head li{text-align: center;margin:10px 0}
+
+    span.menu-res{top: 160px;right: 10px;}
+
+    .mask .btn{top: 85%}
+
+    .login .box, .login .box form{width: 100%}
+
+}

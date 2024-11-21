@@ -1,0 +1,14 @@
+body{background-color:#ffffff;color:#000000}
+header{background-color: #000000;color:#ffffff}
+footer,.child2 ul{background-color: #ffffff;color:#ffffff}
+nav{background-color: #ffffff;color:#000000}nav a{color:#000000}
+.btn,.article .cnt,.h:after{background-color: #ff0000;color:#ff8000}
+.btn,.h:after{border-radius:9px}
+.tag{border: 1px solid #ff0000;color: #ff0000}
+a{color:#000000}
+.cont{width:68%;}aside{width:30%;}
+.articles{display:flex;justify-content: space-between;flex-wrap: wrap}
+.article{width:32%;}
+.article img{width:100%;}
+.gla-pagination a{border: 1px solid #000000;border-radius:9px}
+        
